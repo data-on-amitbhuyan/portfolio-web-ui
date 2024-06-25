@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Home Section */
+        #home {
+            text-align: center;
+            padding: 50px 0;
+            background: #f4f4f4;
+        }
+
+        /* About Section */
+        #about {
+            padding: 50px;
+            background: #e4e4e4;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 50px;
+            background: #d4d4d4;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 50px;
+            background: #c4c4c4;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input,
+        form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am Amit Bhuyan, a Data Analyst.</p>
+        <h2>
+            Skills </h2>
+        <p> Data analysis Statistical programming languages such as Python, SQL
+            Data management,
+            Data visualization tools,
+            Microsoft Power BI,
+            Machine learning,
+            Excel skills,
+            Knowledge of big data tools and databases.
+        </p>
+        <h2>Educational Qualifications</h2>
+        <p>Bachelor of technology in Computer science & Engineering</p>
+        <h2>Professional Experience</h2>
+        <p>
+            I currently working as a frontend developer intern with Codealpha technologies pvt ltd
+            since March 2024 to till date.
+        </p>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>News aggregator using django framework in python</h3>
+            <p>Discription of project- A news aggregator is a system that takes news from several resources and puts
+                them all together.A goodexample of news aggregator are JioNews and Google News.</p>
+        </div>
+        <div class="project">
+            <h3>develop a user interface of ecommerce website</h3>
+            <p>Description of project- Amazon ecommerce website</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:amitbhuyan@gmail.com">your.email@amitbhuyan.com</a>.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Amit Bhuyan. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Portfolio site loaded');
+        });
+    </script>
+</body>
+
+</html>
